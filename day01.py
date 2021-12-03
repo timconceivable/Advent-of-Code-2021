@@ -25,12 +25,12 @@ def main():
     #PART 1
     depths = input_to_list(r'day01-input.txt')
     total_increases = increases(depths)
-    print(total_increases)
+    print("PART 1:", total_increases)
     
     #PART 2
     sums = sums_of_threes(depths)
     sum_increases = increases(sums)
-    print(sum_increases)
+    print("PART 2:", sum_increases, "\n")
 
 if __name__ == "__main__":
     main()
